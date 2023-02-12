@@ -1,0 +1,1 @@
+const mystery= () => {return {sanity: 'Hello'}}
