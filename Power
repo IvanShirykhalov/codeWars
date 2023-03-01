@@ -1,0 +1,3 @@
+function numberToPower(number, power){
+  return power ? number * numberToPower(number, power - 1) : 1;
+}
