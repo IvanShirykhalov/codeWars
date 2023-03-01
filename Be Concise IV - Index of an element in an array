@@ -1,0 +1,3 @@
+function find(arr,el){
+return arr.indexOf(el)>=0?arr.indexOf(el):"Not found";
+}
