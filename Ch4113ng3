@@ -1,0 +1,14 @@
+function nerdify(txt){
+  return txt.split('').map(i => i == 'a' ? i = 4 :
+                           i == 'A' ? i = 4 :
+                           i == 'l' ? i = 1 :
+                           i == 'e' ? i = 3 :
+                           i == 'E' ? i = 3 :
+                           i).join('')
+}
+
+
+
+function nerdify(txt){
+  return txt.replace(/[aA]/g,'4').replace(/[eE]/g,'3').replace(/[l]/g,'1')
+}
