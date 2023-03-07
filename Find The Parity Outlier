@@ -1,0 +1,6 @@
+function findOutlier(integers){
+  let even = []
+  let odd = []
+  integers.filter(i => i % 2===0 ? even.push(i) : odd.push(i))
+  return even.length === 1 ? even[0] : odd[0]
+}
