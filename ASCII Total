@@ -1,0 +1,5 @@
+function uniTotal (string) {
+
+ return string == '' ? 0 : 
+ string.split('').map(i => i.charCodeAt(0)).reduce((acc, number) => acc + number)
+}
