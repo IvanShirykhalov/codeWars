@@ -1,0 +1,5 @@
+function converter (mpg) {
+  const g = 4.54609188 
+  const m = 1.609344
+  return +(mpg/g*m).toFixed(2)
+}
