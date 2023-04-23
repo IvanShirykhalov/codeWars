@@ -1,0 +1,3 @@
+function feast(beast, dish) {
+return beast.split('')[0] == dish.split('')[0] && beast.split('').slice(-1)[0] == dish.split('').slice(-1)[0] ? true : false
+}
