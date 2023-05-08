@@ -1,0 +1,9 @@
+function findMultiples(integer, limit) {
+  const x = []
+  let inc = 1
+  while (inc * integer <=limit ){
+    x.push(inc * integer) 
+    inc++
+  }
+  return x
+}
